@@ -1,17 +1,14 @@
 # cap5610-project
 CAP 5610 Project - Automatic segmentation of multiple structures from short-axis cardiac MRI
 
-===================================================
  Data Preprocessing
 ===================================================
  - dataset_utils.py
  
-===================================================
  Data Offline Augmentation
 ===================================================
  - ds_augmentation.py
   
-===================================================
  Model Architecture
 ===================================================
  - network_2d.py
@@ -19,7 +16,6 @@ CAP 5610 Project - Automatic segmentation of multiple structures from short-axis
  - network_3d.py
  - model.py
  
-===================================================
  Data Generators
 ===================================================
  - data.py
@@ -28,7 +24,6 @@ CAP 5610 Project - Automatic segmentation of multiple structures from short-axis
  - data_augmented.py
  - data_augmented_3d.py
  
-===================================================
  Models Training
 ===================================================
  - train_hl.py
@@ -36,25 +31,21 @@ CAP 5610 Project - Automatic segmentation of multiple structures from short-axis
  - train_2dnpp.py
  - train_3dn.py
  
-===================================================
  Models Prediction
 ===================================================
  - pred_2dn.py
  - pred_2dnpp.py
  - pred_3dn.py
  
-===================================================
  Models Evaluation
 ===================================================
  - evaluation.py
  
-===================================================
  Weighted Average
 ===================================================
  - weight-hl.py
  - weight-framework.py
  
-===================================================
  Models Test Set Prediction
 ===================================================
  - test_hl.py
